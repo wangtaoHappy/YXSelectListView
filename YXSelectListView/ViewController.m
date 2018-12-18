@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "YXSelectListView.h"
+#import "UIView+Frame.h"
 
 @interface ViewController ()
 
@@ -16,13 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.view.backgroundColor = [UIColor whiteColor];
+    YXSelectListView *listView = [[YXSelectListView alloc] initWithFrame:CGRectMake(0, 0, self.view.yx_width - 40, 44)];
+    listView.center = self.view.center;
+    listView.dataSource = @[@"投影",@"触摸",@"网络",@"系统",@"主机"];
+    listView.block = ^(NSInteger index, NSString *text) {
+    };
+    [self.view addSubview:listView];
 }
 
 

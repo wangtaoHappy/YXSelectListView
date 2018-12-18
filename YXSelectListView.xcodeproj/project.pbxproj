@@ -13,6 +13,8 @@
 		93504ABA21C8D091008DC5E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93504AB921C8D091008DC5E0 /* Assets.xcassets */; };
 		93504ABD21C8D091008DC5E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93504ABB21C8D091008DC5E0 /* LaunchScreen.storyboard */; };
 		93504AC021C8D091008DC5E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93504ABF21C8D091008DC5E0 /* main.m */; };
+		93504ACA21C8D174008DC5E0 /* YXSelectListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93504AC721C8D173008DC5E0 /* YXSelectListView.m */; };
+		93504ACB21C8D174008DC5E0 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 93504AC821C8D173008DC5E0 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		93504ABC21C8D091008DC5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93504ABE21C8D091008DC5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93504ABF21C8D091008DC5E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93504AC621C8D173008DC5E0 /* YXSelectListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXSelectListView.h; sourceTree = "<group>"; };
+		93504AC721C8D173008DC5E0 /* YXSelectListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXSelectListView.m; sourceTree = "<group>"; };
+		93504AC821C8D173008DC5E0 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		93504AC921C8D174008DC5E0 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		93504AAF21C8D08F008DC5E0 /* YXSelectListView */ = {
 			isa = PBXGroup;
 			children = (
+				93504AC921C8D174008DC5E0 /* UIView+Frame.h */,
+				93504AC821C8D173008DC5E0 /* UIView+Frame.m */,
+				93504AC621C8D173008DC5E0 /* YXSelectListView.h */,
+				93504AC721C8D173008DC5E0 /* YXSelectListView.m */,
 				93504AB021C8D08F008DC5E0 /* AppDelegate.h */,
 				93504AB121C8D08F008DC5E0 /* AppDelegate.m */,
 				93504AB321C8D08F008DC5E0 /* ViewController.h */,
@@ -142,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93504AB521C8D08F008DC5E0 /* ViewController.m in Sources */,
+				93504ACA21C8D174008DC5E0 /* YXSelectListView.m in Sources */,
 				93504AC021C8D091008DC5E0 /* main.m in Sources */,
+				93504ACB21C8D174008DC5E0 /* UIView+Frame.m in Sources */,
 				93504AB221C8D08F008DC5E0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
